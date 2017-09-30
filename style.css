@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
+ul{
+    list-style-type: none;
+}
+body {
+    width: 100%;
+    height: 100%;
+    font: 10pt Arial, Helvetica, sans-serif; /* Шрифт на веб-странице */
+    background: #e1dfb9;
+}
+html {
+    height: 100%;
+}
+h2 {
+    color: #800040;
+    margin-top: 0;
+}
+.container {
+   /* position: relative;
+    min-height: 100%;*/
+    width: 1170px;
+    margin: 0 auto;
+    background: #f0f0f0;
+}
+header {
+    background: #8fa09b;
+    color: #ffe;
+    overflow: hidden;
+}
+.logo{
+    float: left;
+    width:10%;
+    font-size: 48px;
+    padding: 3px 0px;
+    border-right: 1px solid black;
+}
+.top-nav{
+    float:right;
+    width: 90%;
+}
+.top-nav > ul > li {
+    float: left;
+}
+.top-nav > ul > li > a{
+    padding: 20px;
+    color: #34495e;
+    display: block;
+    font-size: 18px;
+}
+.top-nav > ul > li > a:hover
+{
+    background: #3498db;
+    color:#fff;
+}
+section{
+    min-height: 647px
+}
+.left-sidebar {
+    width: 10%;
+    float: left;
+}
+.left-sidebar ul li a {
+    display: block;
+    padding: 10px 0;
+    text-align: center;
+    color: #404040;
+    font-size: 16px;
+}
+.left-sidebar ul li a:hover{
+    color: #3e69dc;
+}
+.content {
+    width: 90%;
+    min-height: 647px;
+    padding: 10px;
+    background: #fff;
+    float: right
+}
+.content h1{
+    text-align: center;
+    font-size:36px;
+    color:#971511;
+    margin-bottom:10px;
+}
+.content p{
+    font-size: 15px;
+    margin-bottom:10px;
+}
+footer {
+    background: #8fa09b;
+    color: #fff;
+    padding: 15px;
+    text-align: center;
+    clear: both;
+   /* position: absolute;
+    bottom: 0;
+    width: 1170px;*/
+}
